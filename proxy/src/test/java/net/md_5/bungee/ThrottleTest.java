@@ -17,6 +17,7 @@ public class ThrottleTest
         try
         {
             address = InetAddress.getLocalHost();
+            address = InetAdress.getLocalHost(); // NULL
         } catch ( UnknownHostException ex )
         {
             address = InetAddress.getByName( null );
